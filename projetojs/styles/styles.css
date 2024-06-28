@@ -1,0 +1,59 @@
+/* Resetar css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(186, 241, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 90vw; /* Ajustar a largura para dispositivos móveis */
+    max-width: 200px; /* Definir um valor máximo para a largura */
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.content img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#no, #yes {
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#no {
+    background-color: red;
+}
+
+#yes {
+    background-color: green;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.btn-area {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
